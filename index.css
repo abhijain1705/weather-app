@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.card {
+  height: 60vmin;
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  width: 60vmin;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.search-parent input {
+  height: 30px;
+  border-radius: 20px;
+  padding: 4px;
+}
+
+.search-parent button {
+  border-radius: 100%;
+  padding: 6px;
+  margin-left: 5px;
+}
+
+h4 {
+  text-align: center;
+}
+
+.temperature-parent img,
+.temperature-parent h1 {
+  margin: 0 5px;
+}
+
+.extra-info-parent {
+  justify-content: space-between;
+  width: 100%;
+}
